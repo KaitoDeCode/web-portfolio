@@ -9,7 +9,7 @@ const Status = ({status}) => {
   }
   const variants = style()
   return (
-    <p className={`px-6 rounded-lg text-white ${variants}`}>
+    <p className={`px-8 rounded-lg text-white ${variants}`}>
       {status === "beginner" ? "Beginner" :null }
       {status === "intermediate" ? "Intermediate" :null }
       {status === "advance" ? "Advance" :null }
