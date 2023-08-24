@@ -17,7 +17,7 @@ const AboutSection = () => {
             </p>
           </div>  
           <div>
-            <div className='flex flex-col items-center p-10 mx-10 mt-10 mb-10 text-center rounded-lg shadow-lg'>
+            <div className='flex flex-col w-full mx-auto items-center p-10  mt-10 mb-10 text-center rounded-lg shadow-lg'>
               <FaBrain className='text-5xl text-teal-600 animate-bounce md:text-6xl'/>
               <h3 className='py-1 mb-5 text-3xl md:text-4xl dark:text-white'><span className='text-teal-600'>Teknologi</span> yang <br /> saya Kuasai :</h3>
               <SkillSetNoSSR/>

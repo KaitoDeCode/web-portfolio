@@ -8,8 +8,9 @@ import Status from '../elements/Status'
 
 const SkillSet = () => {
   return (
-    <div className=''>
+    <div>
       <table cellPadding={10}>
+        <tbody >
         <tr>
           <td >
           <Skill
@@ -81,6 +82,7 @@ const SkillSet = () => {
             <Status status={"beginner"} />
           </td>
         </tr>
+        </tbody>
       </table>
   </div>
   )
